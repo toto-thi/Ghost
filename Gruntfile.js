@@ -268,7 +268,7 @@ module.exports = function (grunt) {
                 force: false,
                 // Expand to all files in /hooks
                 expand: true,
-                cwd: '.github/hooks',
+                cwd: '.git/hooks',
                 src: ['*'],
                 dest: '.git/hooks'
             }
